@@ -91,7 +91,7 @@ cv:
           Conway Maneuver**.'
           - 'Introduced an iterative five-step migration process: strategic classification of bounded contexts 
           (prioritization), boundary alignment (scope), complexity analysis (effort), migration execution (patterns),
-          and iteration—enabling structured, evidence-driven modernization.'
+          and iteration - enabling structured, evidence-driven modernization.'
           - 'Led multiple migration teams in decomposing legacy components into an **Event-Driven Architecture (EDA)
           ** built on reactive principles, ensuring low latency, high throughput, and high availability in 
           revenue-critical scenarios.'
