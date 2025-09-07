@@ -1,0 +1,137 @@
+cv:
+  name: Thomas Ploch
+  location: Berlin, Germany
+  email: profiploch@gmail.com
+  phone: +49(0)176 70455080
+  social_networks:
+    - network: GitHub
+      username: tPl0ch
+    - network: LinkedIn
+      username: thomas-ploch-a3b79059
+    - network: StackOverflow
+      username: 1471320/thomas-ploch
+  sections:
+    'About_Me':
+      - 'Effective software architecture requires more than technical expertise - it demands an understanding of market
+      forces, business strategy, competitive landscapes, and the needs of both users and builders.'
+      - 'Hence I am passionate about helping organizations navigate complex socio-technical systems, designing 
+      architectures that enable teams to deliver sustainable customer value.'
+      - 'With experience in evolving systems through multiple levels of scale, guiding cross-functional teams, and 
+      aligning technology with business goals, my focus is on creating systems that are both technically sound and 
+      strategically impactful.'
+    education:
+      - institution: University of Heidelberg
+        location: Heidelberg, Germany
+        degree: B.Sc.
+        area: Computational Linguistics
+        start_date: 2001
+        end_date: 2005
+    experience:
+      - company: FlixMobility Tech GmbH
+        position: Domain Technology Officer (Global Business Excellence)
+        start_date: 2024-02
+        location: Berlin, Germany
+        summary: 'Provided technical leadership to four cross-functional software delivery teams, ensuring alignment 
+        with global business and technology strategy while fostering autonomy and innovation.'
+        highlights:
+          - 'Applied **Wardley Mapping** and **Value Stream Mapping** to re-align organizational and technical 
+          boundaries, reducing coordination costs and streamlining integration between teams.'
+          - 'Replaced a top-down, push-based alignment process with a bottom-up, pull-based approach using 
+          **Architecture Decision Records (ADRs)** and automated notifications. This freed time for targeted, 
+          hands-on coaching with delivery teams.'
+          - 'Coached teams in **Evolutionary Architecture** practices grounded in **Continuous Delivery** and 
+          **Domain-Driven Design**, using **Ensemble Programming** to instill lasting coding habits. Applied 
+          successfully to both greenfield and legacy projects.'
+      - company: FlixMobility Tech GmbH
+        position: Principal Software Engineer (Process Orchestration)
+        start_date: 2021-10
+        location: Berlin, Germany
+        summary: 'Led the design and development of a new software product to optimize the GoLive process - a critical 
+        cross-functional workflow ensuring new bus lines are launched fully equipped and on schedule.'
+        highlights:
+          - 'Introduced **Quality Storming** (based on the ISO/IEC 25010:2023 quality model), aligning technical and 
+          non-technical stakeholders on non-functional requirements and securing shared approval.'
+          - 'Defined **Service-Level Objectives (SLOs)** and **Service-Level Indicators (SLIs)** rooted in **Fitness 
+          Functions**, enabling continuous validation of system architecture and early detection of degradations in 
+          key quality attributes.'
+          - 'Implemented a **Kanban** delivery process combined with **Trunk-Based Development** and **Continuous 
+          Integration**, significantly improving flow efficiency - reducing lead time, cycle time, and reaction time,
+          and enabling faster, more predictable delivery of value.'
+          - 'Built software features composed into vertical slices that delivered customer value end-to-end, from the
+           user interface through the backend to integrations with other systems.'
+      - company: 'SPRK.global'
+        position: Head of Development (Food Supply Chain Optimization)
+        start_date: 2021-01
+        end_date: 2021-10
+        location: Berlin, Germany
+        summary: 'Built the development function from the ground up: grew the team from zero to a cross-functional 
+        unit of 3 developers and a product owner, managed strategic partnerships with software agencies, and prepared
+        funding presentations to attract investors.'
+        highlights:
+          - '**Designed a role description framework and hiring pipeline optimized for candidate experience**, aligning 
+          talent acquisition with team composition, skills gaps, and organizational needs. Measured success by 
+          throughput and conversion rates at each pipeline stage.'
+          - '**Developed an identity and access management (RBAC) system** integrating with all major software tools,
+          enabling one-click on- and off-boarding via a public/private key architecture - improving security and 
+          reducing onboarding time significantly.'
+          - '**Migrated operational workflows from Google Docs to a tailored system** comprising warehouse management, 
+          partner management, and supply chain analytics/optimization. Reduced partner integration time by 70% while 
+          supporting rapid growth in delivery partnerships.'
+      - company: FlixMobility Tech GmbH
+        position: Principal Solutions Architect
+        start_date: 2018-01
+        end_date: 2020-10
+        location: Berlin, Germany
+        summary: 'Led the legacy system migration program, defining evidence-based patterns and principles to 
+        transform a monolithic system into a [**Self-Contained Systems**](https://scs-architecture.org/) 
+        architecture, guided by **strategic Domain-Driven Design**.'
+        highlights:
+          - 'Co-created the Context Map of Bounded Contexts using **Big Picture Event Storming** and **Domain 
+          Storytelling**, establishing the target socio-technical design and executing the transition via a **Reverse
+          Conway Maneuver**.'
+          - 'Introduced an iterative five-step migration process: strategic classification of bounded contexts 
+          (prioritization), boundary alignment (scope), complexity analysis (effort), migration execution (patterns),
+          and iteration—enabling structured, evidence-driven modernization.'
+          - 'Led multiple migration teams in decomposing legacy components into an **Event-Driven Architecture (EDA)
+          ** built on reactive principles, ensuring low latency, high throughput, and high availability in 
+          revenue-critical scenarios.'
+    Talks,_presentations_and_publications:
+      - name: '[The One Question To Haunt Everyone: What is a DDD Aggregate?](https://youtu.be/zlFqjD2LKlE)'
+        location: DDD Europe 2022
+        summary: >
+          There is one question that I am getting asked at almost every conference or meetup: What is and what isn't an
+          Aggregate? How do we design an Aggregate? To be honest, it's not an easy answer, even for experienced
+          practitioners. In this session I am summarizing the current state of affairs regarding Aggregate design in 
+          the Domain-Driven Design community.
+      - name: '[Strangling The Monolith: Applied Patterns & Practices From The Trenches](https://youtu.be/cGcrReJ6FbY)'
+        location: NDC Oslo 2022
+        summary: 'Many developers have been there. A beautifully crafted system that has helped the company grow 
+        slowly deteriorates into a big ball of mud. The calls for a rewrite are becoming louder and louder, but these
+        big-bang rewrites historically have a high risk of failure. Is there a way to iteratively step out of the mud?'
+rendercv_settings:
+  render_command:
+    output_folder_name: rendered
+    pdf_path: NAME_IN_SNAKE_CASE_CV.pdf
+    typst_path: NAME_IN_LOWER_SNAKE_CASE_cv.typ
+    dont_generate_html: false
+    dont_generate_markdown: true
+    dont_generate_png: true
+design:
+  theme: readable
+  section_titles:
+    vertical_space_above: 1.8em
+    vertical_space_below: 1.2em
+    line_thickness: 0.2pt
+  highlights:
+    top_margin: 1.8em
+    vertical_space_between_highlights: 1.8em
+    bullet: ◦
+  page:
+    size: a4
+  entries:
+    vertical_space_between_entries: 1.8em
+    allow_page_break_in_entries: true
+    allow_page_break_in_sections: true
+    short_second_row: false
+locale:
+  language: en

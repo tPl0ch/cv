@@ -3,5 +3,9 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.12 (render-cv)" />
   </component>
+  <component name="ProjectResources">
+    <resource url="https://github.com/rendercv/rendercv/blob/main/schema.json?raw=true"
+              location="$PROJECT_DIR$/me.yaml" />
+  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (render-cv)" project-jdk-type="Python SDK" />
 </project>

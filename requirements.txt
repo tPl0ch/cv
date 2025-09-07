@@ -1,1 +1,2 @@
-rendercv==2.2
+pydantic-extra-types
+rendercv[full]==2.2
